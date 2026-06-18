@@ -9,4 +9,6 @@ captures/
 *.apk
 *.keystore
 *.jks
+# но стабильный debug-ключ держим в репо (нужен для одинаковой подписи сборок)
+!/app/debug.keystore
 .DS_Store
